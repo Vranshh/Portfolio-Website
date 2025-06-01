@@ -456,6 +456,17 @@ nav {
         width: 100vw;
         padding: 0 0vw;
     }
+    .elem{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    border-bottom: 1px solid rgb(29, 29, 29);
+    border-top: 1px solid rgb(29, 29, 29);
+    overflow: hidden;
+}
 
     nav {
         padding: 8vw 5vw;
@@ -608,6 +619,11 @@ nav {
         animation-timing-function: ease-in-out;
 
     }
+    #page2-bottom image{
+    width: auto;
+    border-radius: 20px;
+    height: 200px;
+}
 
 
 }
